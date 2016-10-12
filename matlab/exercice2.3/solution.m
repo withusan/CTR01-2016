@@ -1,3 +1,8 @@
+%%
+% Projet: Cours de Technique de r√©action
+% Auteur: Thierry Chappuis
+%
+
 % Housekeeping
 clc;
 clear;
@@ -12,9 +17,9 @@ D = 0.04;
 x0 = 500;
 y0 = 200;
 
-% RÈsoudre le problËme
+% R√©soudre le probl√®me
 variables0 = [x0 y0]; % conditions initiales sous forme de vecteur
-tspan = 0 : 1 : 1000; % domaine d'intÈgration
+tspan = 0 : 1 : 1000; % domaine d'int√©gration
 
 [t, valeurs] = ode45(@(t,variables) equations(t,variables,A,B,C,D), tspan, variables0);
 
