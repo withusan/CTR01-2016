@@ -1,4 +1,4 @@
-function dvariables = equations(t, variables, A, B, D):
+function dvariables = equations(t, variables, A, B, D)
     % On commence par récupérer les variables dans le bon ordre
     u = variables(1);
     v = variables(2);

@@ -1,18 +1,18 @@
 % Houskeeping
 clc;
-clear
+clear;
 
 % Définition des constantes
-A = 0.00009
-B = 0.0000833
-D = 0.05
+A = 0.00009;
+B = 0.0000833;
+D = 0.05;
 
 % Définition des conditions initiales
-u0 = 7.72
-v0 = 200
-x0 = 0
-y0 = 0
-z0 = 0
+u0 = 7.72;
+v0 = 200;
+x0 = 0;
+y0 = 0;
+z0 = 0;
 
 % Comme on ne peut passer qu'une seule condition au solveur, on encapsule les
 % conditions dans un vecteur.
